@@ -11,3 +11,5 @@ java.lang.NoClassDefFoundError: com.google.gson.Gson
     at com.denisk.deptest.MainActivity.onCreate(MainActivity.java:15)
     at android.app.Activity.performCreate(Activity.java:5135)
 ```
+
+If Gson dependency is removed from `javalib` module and put into main `app` module it works as expected.
